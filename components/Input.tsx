@@ -19,7 +19,10 @@ const Input: React.FC<InputProps> = ({
       value={value}
       placeholder={placeholder}
       disabled={disabled}
-      className=" w-full p-4 text-lg bg-blacke border-neutral-800
+      className=" w-full p-4 
+      text-lg 
+      bg-black border-2
+       border-neutral-800
       rounded-md 
       outline-none 
       text-white 

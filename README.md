@@ -2,6 +2,9 @@
 
 In this project we used the following technologies
 
+it was exicting building this project.
+in the course of developing the twitter clone I learned and used several new technologies some i wasn't aware of before now.
+
 - Next Js
 -
 

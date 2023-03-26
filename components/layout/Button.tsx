@@ -5,7 +5,7 @@ interface ButtonProps {
   large: boolean;
   onClick: () => void;
   disabled?: boolean;
-  outline: boolean;
+  outline?: boolean;
 }
 const Button: React.FC<ButtonProps> = ({
   label,

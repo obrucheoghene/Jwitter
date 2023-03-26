@@ -1,15 +1,20 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+## Twitter Clone Next Js App
 
-## Getting Started
+In this project we used the following technologies
 
-First, run the development server:
+- Next Js
+-
 
-```bash
+The app was create with r
+
+```sh
+npx create-next-app@latest
+```
+
+the I followed the interactive prompts to initial the apple
+
+```sh
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.

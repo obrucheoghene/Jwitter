@@ -1,5 +1,6 @@
 import { BsHouseFill, BsBellFill } from 'react-icons/bs';
 import { FaUser } from 'react-icons/fa';
+import SidebarItem from './SidebarItem';
 import SidebarLogo from './SidebarLogo';
 
 const Sidebar = () => {

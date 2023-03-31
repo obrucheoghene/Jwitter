@@ -1,4 +1,4 @@
-import useLoginModal from '@/hooks/useLoginModals';
+import useLoginModal from '@/hooks/useLoginModal';
 import useRegisterModal from '@/hooks/useRegisterModal';
 import axios from 'axios';
 import { signIn } from 'next-auth/react';

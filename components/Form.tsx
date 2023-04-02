@@ -48,8 +48,18 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
               onChange={(e) => setBody(e.target.value)}
               value={body}
               placeholder={placeholder}
-              className="disabled:opacity-80 peer resize-none mt-3 bg-black w-full ring-0 outline-none text-[20px] placeholder-neutral-500 "
+              className="disabled:opacity-80 peer resize-none mt-3 bg-black w-full ring-0 outline-none text-[20px] 
+              text-white
+              placeholder-neutral-500 "
             ></textarea>
+            <hr className=" opacity-0 peer-focus:opacity-100 h-[1px] w-full border-neutral-800 transition " />
+            <div className=" mt-4 flex flex-row justify-end">
+              <Button
+                label="Tweet"
+                disabled={isLoading || !body}
+                onClick={onSubmit}
+              />
+            </div>
           </div>
         </div>
       ) : (

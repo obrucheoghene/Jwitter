@@ -26,7 +26,7 @@ export default async function name(req: NextApiRequest, res: NextApiResponse) {
       throw new Error('Invalid Id');
     }
 
-    let updatedFollowingIds = [...(user.followingIds || [])];
+    let updatedFollowingIds = [...(currentUser.followingIds || [])];
 
     if (req.method === 'POST') {
       updatedFollowingIds.push(userId);

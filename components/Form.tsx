@@ -5,6 +5,7 @@ import useRegisterModal from '@/hooks/useRegisterModal';
 import axios from 'axios';
 import { useCallback, useState } from 'react';
 import { toast } from 'react-hot-toast';
+import { URL } from 'url';
 import Avatar from './Avatar';
 import Button from './layout/Button';
 
@@ -25,7 +26,9 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
 
   const onSubmit = useCallback(async () => {
     try {
-      await axios.post('/api/posts', { body });
+      setIsLoading(true);
+      const url = isComment ? `api/comments?postId=${postId}` : '/api/posts';
+      await axios.post(url, { body });
       toast.success('Tweet created');
       setBody('');
       mutatePosts();
@@ -34,7 +37,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
     } finally {
       setIsLoading(false);
     }
-  }, [body, mutatePosts]);
+  }, [body, mutatePosts, isComment, postId]);
   return (
     <div className=" border-b-[1px] border-neutral-800 px-5 py-2">
       {currentUser ? (

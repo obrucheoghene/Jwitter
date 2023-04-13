@@ -1,3 +1,4 @@
+import CommentFeed from '@/components/posts/CommentFeed';
 import Form from '@/components/Form';
 import Header from '@/components/layout/Header';
 import PostItem from '@/components/posts/PostItem';
@@ -28,6 +29,7 @@ const PostView = () => {
         isComment
         placeholder="Tweet your reply"
       />
+      <CommentFeed comments={fetchedPost?.comments} />
     </>
   );
 };

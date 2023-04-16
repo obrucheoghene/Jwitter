@@ -6,9 +6,9 @@ interface CommentFeedProps {
 const CommentFeed: React.FC<CommentFeedProps> = ({ comments = [] }) => {
   return (
     <>
-      {comments.map((comment) => {
-        <CommentItem key={comment.id} data={comment} />;
-      })}
+      {comments.map((comment) => (
+        <CommentItem key={comment.id} data={comment} />
+      ))}
     </>
   );
 };

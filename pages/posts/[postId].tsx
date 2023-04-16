@@ -12,7 +12,6 @@ const PostView = () => {
   const { postId } = router.query;
 
   const { data: fetchedPost, isLoading } = usePost(postId as string);
-
   if (isLoading || !fetchedPost) {
     return (
       <div className=" flex justify-center items-center h-full">

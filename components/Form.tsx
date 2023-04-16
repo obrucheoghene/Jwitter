@@ -29,13 +29,14 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
   const onSubmit = useCallback(async () => {
     try {
       setIsLoading(true);
-      const url = isComment ? `api/comments?postId=${postId}` : '/api/posts';
+      const url = isComment ? `/api/comments?postId=${postId}` : '/api/posts';
       await axios.post(url, { body });
       toast.success('Tweet created');
       setBody('');
       mutatePosts();
       mutatePost();
     } catch (error) {
+      console.log(error);
       toast.error('Something went wrong');
     } finally {
       setIsLoading(false);

@@ -1,4 +1,6 @@
-## Twitter Clone Next Js App
+## Jwitter - Twitter Clone Next Js App
+
+![Jwitter Preview](public/images/app-preview.png)
 
 In this project we used the following technologies
 

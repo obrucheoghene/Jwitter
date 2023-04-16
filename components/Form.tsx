@@ -3,6 +3,7 @@ import useLoginModal from '@/hooks/useLoginModal';
 import usePost from '@/hooks/usePost';
 import usePosts from '@/hooks/usePosts';
 import useRegisterModal from '@/hooks/useRegisterModal';
+import { APP_NAME } from '@/libs/data';
 import axios from 'axios';
 import { useCallback, useState } from 'react';
 import { toast } from 'react-hot-toast';
@@ -72,7 +73,7 @@ const Form: React.FC<FormProps> = ({ placeholder, isComment, postId }) => {
       ) : (
         <div className=" py-8">
           <h1 className=" text-white text-center text-2xl mb-4 font-bold">
-            Welcome to Twitter
+            Welcome to {APP_NAME}
           </h1>
 
           <div className=" flex flex-row items-center justify-center gap-4">

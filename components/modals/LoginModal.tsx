@@ -1,5 +1,6 @@
 import useLoginModal from '@/hooks/useLoginModal';
 import useRegisterModal from '@/hooks/useRegisterModal';
+import { APP_NAME } from '@/libs/data';
 import { signIn } from 'next-auth/react';
 import { useCallback, useState } from 'react';
 import Input from '../Input';
@@ -55,7 +56,7 @@ const LoginModal = () => {
   const footerContent = (
     <div className=" text-neutral-400 text-center mt-4 ">
       <p>
-        First time using Twitter?{' '}
+        First time using {APP_NAME}
         <span
           onClick={onToggle}
           className="text-white cursor-pointer hover:underline"

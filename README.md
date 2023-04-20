@@ -7,3 +7,13 @@ Jwitter is a Twitter clone web application built using Next.js, TypeScript, and 
 I've been long intrigued by the idea of creating a Twitter clone that incorporates some of Twitter's innovative features. This curiosity ultimately drove me to develop Jwitter.
 
 With Jwitter, I have effectively implemented key features and functionalities that are comparable to Twitter's. Users can currently register, login, post tweets, reply to tweets, like and unlike tweets, follow and unfollow other users, as well as receive notifications.
+
+### Features
+
+- User authentication and authorization with NextJs authentication
+- User account creation and management
+- Posting and replying tweets
+- Following and unfollowing other users
+- Liking and unliking tweets
+- Profile page to view user's tweets, followers, and following
+- Responsive design for optimal viewing experience on different devices

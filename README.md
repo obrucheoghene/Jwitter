@@ -55,3 +55,25 @@ To get started with Jwitter, follow the steps below:
   npm run dev
   ```
 - Open your web browser and go to http://localhost:3000 to see Jwitter in action!
+
+### Contributing
+
+Contributions to Jwitter are welcome!
+
+### License
+
+Jwitter is open-source software released under the MIT License.
+
+### Acknowledgements
+
+Jwitter was built with the help of the following frameworks, libraries and resources:
+
+    Next.js: https://nextjs.org/
+    TypeScript: https://www.typescriptlang.org/
+    MongoDB: https://www.mongodb.com/
+    Tailwind CSS: https://tailwindcss.com/
+    Prisma ORM: https://www.prisma.io/
+    Zustand: https://docs.pmnd.rs/zustand/
+    SWR: https://swr.vercel.app/
+
+Special thanks to the developers of these tools for their amazing work!

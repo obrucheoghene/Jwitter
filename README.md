@@ -62,11 +62,11 @@ Contributions to Jwitter are welcome!
 
 ### License
 
-Jwitter is open-source software released under the MIT License.
+[Jwitter](https://jwitter-nine.vercel.app/) is open-source software released under the MIT License.
 
 ### Acknowledgements
 
-Jwitter was built with the help of the following frameworks, libraries and resources:
+[Jwitter](https://jwitter-nine.vercel.app/) was built with the help of the following frameworks, libraries and resources:
 
     Next.js: https://nextjs.org/
     TypeScript: https://www.typescriptlang.org/

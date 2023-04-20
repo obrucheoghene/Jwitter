@@ -18,7 +18,7 @@ With Jwitter, I have effectively implemented key features and functionalities th
 - Profile page to view user's tweets, followers, and following
 - Responsive design for optimal viewing experience on different devices
 
-## Technologies Used
+### Technologies Used
 
 - **Next.js:** A React framework for building server-rendered React applications.
 - **TypeScript:** A statically typed superset of JavaScript.
@@ -27,3 +27,31 @@ With Jwitter, I have effectively implemented key features and functionalities th
 - **Prisma ORM:** An ORM that makes working with databases easy.
 - **Zustand:** A small, fast and scalable state-management solution
 - **SWR:** A React Hooks library for data fetching
+
+### Getting Started
+
+To get started with Jwitter, follow the steps below:
+
+- Clone the repository:
+  ```sh
+  git clone https://github.com/wilfredcloud/jwitter.git
+  ```
+- Navigate to the project directory:
+  ```sh
+   cd jwitter
+  ```
+- Install dependencies:
+  ```sh
+  npm install
+  ```
+- Set up MongoDB database: Create a MongoDB database and provide the connection URL in the .env file as shown below
+  ```sh
+    DATABASE_URL=
+    NEXTAUTH_JWT_SECRET=
+    NEXTAUTH_SECRET=
+  ```
+- Start the development server:
+  ```sh
+  npm run dev
+  ```
+- Open your web browser and go to http://localhost:3000 to see Jwitter in action!

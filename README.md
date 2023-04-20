@@ -17,3 +17,13 @@ With Jwitter, I have effectively implemented key features and functionalities th
 - Liking and unliking tweets
 - Profile page to view user's tweets, followers, and following
 - Responsive design for optimal viewing experience on different devices
+
+## Technologies Used
+
+- **Next.js:** A React framework for building server-rendered React applications.
+- **TypeScript:** A statically typed superset of JavaScript.
+- **MongoDB:** A popular NoSQL database for storing JSON-like documents.
+- **Tailwind CSS:** A modern CSS framework for building responsive and customizable user interfaces.
+- **Prisma ORM:** An ORM that makes working with databases easy.
+- **Zustand:** A small, fast and scalable state-management solution
+- **SWR:** A React Hooks library for data fetching

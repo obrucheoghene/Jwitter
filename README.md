@@ -76,4 +76,4 @@ Contributions to Jwitter are welcome!
     Zustand: https://docs.pmnd.rs/zustand/
     SWR: https://swr.vercel.app/
 
-Special thanks to the developers of these tools for their amazing work!
+Special thanks to [Antonio Erdeljac](https://github.com/AntonioErdeljac) for inspiring this.
